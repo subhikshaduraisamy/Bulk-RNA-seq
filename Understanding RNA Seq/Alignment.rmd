@@ -2,10 +2,23 @@
 title: "Alignment to reference genome"
 author: "Subhiksha"
 date: 08-11-2026
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
 
-#ff
+# What exactly is alignment?
+
+The sequencing output from sequencers are reads of short lenghts. So 
+
+# Reference genome
+
+
+# Alignment tools
+
+
+# Alignment parameters
+
+
