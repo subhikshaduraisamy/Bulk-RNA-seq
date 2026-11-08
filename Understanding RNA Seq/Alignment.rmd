@@ -13,12 +13,37 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The sequencing output from sequencers are reads of short lenghts. So 
 
-# Reference genome
+In RNA-seq - 
+
+k-mers (default = 31) - the 
+
+- Position based alignment - STAR, HISAT2
+- Pseudo-aligners - considers abundance of reads
+
+## Splice junctions
+
+# **Reference genome**
+
+https://ftp.ensembl.org/pub/
+
+# **Alignment tools**
+
+Splice aware alignment tools - 
 
 
-# Alignment tools
 
+## Salmon
+Salmon - wicked-fast transcript quantification from RNA-seq data
+Salmon index -
+Salmon quant - 
+
+```
+salmon index   -t transcriptome.fa   -i salmon_index   -k 31
+mkdir salmon_out
+salmon quant   -i salmon_index   -l A   -1 fastq/SRR23955797_1.fastq   -2 fastq/SRR23955797_2.fastq   -p 12   --validateMappings   -o salmon_out/
+```
 
 # Alignment parameters
+
 
 
