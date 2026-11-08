@@ -1,0 +1,6 @@
+---
+title: "fastqc"
+author: "Subhiksha"
+date: 08-11-2026
+output: html_document
+---
