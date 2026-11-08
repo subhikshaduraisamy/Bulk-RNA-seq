@@ -1,0 +1,11 @@
+---
+title: "Alignment to reference genome"
+author: "Subhiksha"
+date: 08-11-2026
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#ff
