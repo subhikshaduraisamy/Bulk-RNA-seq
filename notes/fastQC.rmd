@@ -4,3 +4,48 @@ author: "Subhiksha"
 date: 08-11-2026
 output: html_document
 ---
+
+## Sequencer output
+
+The output from the sequencer is raw reads in FASTQ format. Reads are the strecthes of strecthes of nucleotide sequences, read by the sequencer. 
+
+<fastq format.image>
+
+Imagine handing out a poem to differet kids. Some might have just skimmed through it, some might have read it over and over to enjoy the nuances, while some not even cared enough to read it. If these kids were asked to write an essay on the poem, their interpretations would vary greatly-even though it's the exact same poem.
+
+Similarly, though the underlying sequence of the sample remains the same, the quality of the reads might not. Hence, before proceeding with the data analysis, it is essential to do a quality check (QC).
+
+
+## Post-sequencing QC
+
+Errors or biases in sequencing can occur either in the experimental worklow or by the sequence, which doesn't help in insightful biological inference from the data. To avoid this, it is crucial to check the data before processing and analysing it. Few tools that are used to process QC are - FastQC, fastp, and FastUniq.
+
+
+## FastQC
+
+FastQC is quality control tool for high throughput sequencing data. It runs different QC metrics analysis on different formats of sequencing data, generating the results in a easy to read report.
+
+
+
+FastQC metrics:
+
+-> Per Base Sequence Quality - 
+
+-> Per tile sequence quality -
+
+-> Per sequence quality -
+
+-> Per base sequence content -
+
+-> Per sequence GC content -
+
+-> Per base N content -
+
+-> Sequence length distribution -
+
+-> Sequence duplication levels -
+
+-> Overrepresented sequences -
+
+-> Adaptor content -
+
